@@ -48,7 +48,7 @@ void insertParent(ListParent &L, adrParent p) {
 
 void printParent(ListParent L) {
     if (L.first == nullptr) {
-        cout << "Daftar turnamen masih kosong.\n";
+        cout << "Tidak ada turnamen.\n";
         return;
     }
 
